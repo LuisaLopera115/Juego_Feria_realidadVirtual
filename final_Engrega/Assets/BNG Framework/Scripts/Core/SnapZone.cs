@@ -103,16 +103,18 @@ namespace BNG {
             gZone = GetComponent<GrabbablesInTrigger>();
             _scaleTo = ScaleItem;
 
-            //// Auto Equip item by moving it into place and grabbing it
-            //if(StartingItem != null) {
-            //    StartingItem.transform.position = transform.position;
-            //    GrabGrabbable(StartingItem);
-            //}
-            //// Can also use HeldItem (retains backwards compatibility)
-            //else if (HeldItem != null) {
-            //    HeldItem.transform.position = transform.position;
-            //    GrabGrabbable(HeldItem);
-            //}
+            // Auto Equip item by moving it into place and grabbing it
+            if (StartingItem != null)
+            {
+                StartingItem.transform.position = transform.position;
+                GrabGrabbable(StartingItem);
+            }
+            // Can also use HeldItem (retains backwards compatibility)
+            else if (HeldItem != null)
+            {
+                HeldItem.transform.position = transform.position;
+                GrabGrabbable(HeldItem);
+            }
         }
 
         void Update() {
@@ -447,7 +449,7 @@ namespace BNG {
                 }
             }
 
-            //HeldItem = null;
+            HeldItem = null;
         }
     }
 }
