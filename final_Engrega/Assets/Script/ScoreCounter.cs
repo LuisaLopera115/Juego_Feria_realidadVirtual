@@ -1,6 +1,5 @@
 
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ScoreCounter : MonoBehaviour
@@ -47,14 +46,15 @@ public class ScoreCounter : MonoBehaviour
         Generadores.active = false;
         if (ScoreSum > PlayerPrefs.GetInt("HighScore", 0))
         {
-            HigScore = PlayerPrefs.GetInt("HighScore", ScoreSum);
-            ScoreSum = 0;
+            HigScore = PlayerPrefs.SetInt("HighScore", ScoreSum);
             HigScoreTxt.text = HigScore.ToString();
         }
         Debug.Log("highScore: " + HigScore.ToString());
         start = false;
     }
     public void gameOn() {
+        ScoreSum = 0;
+        ScoreTxt.text = ScoreSum.ToString();
         start = true;
         timer = 30f;
         panelFinJuego.SetActive(false);

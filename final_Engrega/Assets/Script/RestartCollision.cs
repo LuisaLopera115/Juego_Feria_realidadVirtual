@@ -1,14 +1,21 @@
 
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class RestartCollision : MonoBehaviour
 {
+    private Canvas Canvas;
+    private ScoreCounter StartGame;
+    private void Start()
+    {
+        Canvas = GameObject.Find("EndGame").GetComponent<Canvas>();
+        StartGame = GameObject.Find("ExternalControl").GetComponent<ScoreCounter>();
+    }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag=="pelota")
         {
-            SceneManager.LoadScene("FINAL_AR_VR");
+            Canvas.enabled = false;
+            StartGame.gameOn();
         }
     }
 }
