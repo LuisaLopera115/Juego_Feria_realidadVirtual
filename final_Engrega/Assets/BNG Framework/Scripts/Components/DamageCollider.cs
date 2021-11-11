@@ -8,7 +8,7 @@ namespace BNG {
     /// This collider will Damage a Damageable object on impact
     /// </summary>
     public class DamageCollider : MonoBehaviour {
-
+        public string ponerColorPelota = "";
         /// <summary>
         /// How much damage to apply to the Damageable object
         /// </summary>
@@ -70,7 +70,7 @@ namespace BNG {
                 // Can we damage what we hit?
                 Damageable d = collision.gameObject.GetComponent<Damageable>();
                 if (d) {
-                    d.DealDamage(Damage, collision.GetContact(0).point, collision.GetContact(0).normal, true, gameObject, collision.gameObject);
+                    d.OnBallcollision(Damage, ponerColorPelota, collision.GetContact(0).point, collision.GetContact(0).normal, true, gameObject, collision.gameObject);
                 }
                 // Otherwise, can we take damage ourselves from this collision?
                 else if (TakeCollisionDamage && thisDamageable != null) {

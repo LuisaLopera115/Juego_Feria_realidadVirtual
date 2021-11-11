@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - pelota
+  - Destructor
+  - Azul
+  - Naranja
+  - Verde
+  - Rojo
   layers:
   - Default
   - TransparentFX

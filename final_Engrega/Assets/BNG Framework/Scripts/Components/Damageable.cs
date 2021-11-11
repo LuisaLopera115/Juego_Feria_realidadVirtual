@@ -11,7 +11,10 @@ namespace BNG {
     /// A basic damage implementation. Call a function on death. Allow for respawning.
     /// </summary>
     public class Damageable : MonoBehaviour {
-
+        public string PonerColorDeLapida="";
+        [SerializeField]
+        private ScoreCounter score;
+        private int points = 0;
         public float Health = 100;
         private float _startingHealth;
 
@@ -88,12 +91,13 @@ namespace BNG {
             if (rigid) {
                 initialWasKinematic = rigid.isKinematic;
             }
+            score = GameObject.Find("ExternalControl").GetComponent<ScoreCounter>();
         }
 
         public virtual void DealDamage(float damageAmount) {
             DealDamage(damageAmount, transform.position);
         }
-
+        
         public virtual void DealDamage(float damageAmount, Vector3? hitPosition = null, Vector3? hitNormal = null, bool reactToHit = true, GameObject sender = null, GameObject receiver = null) {
 
             if (destroyed) {
@@ -103,6 +107,8 @@ namespace BNG {
             Health -= damageAmount;
 
             onDamaged?.Invoke(damageAmount);
+
+
 
             // Invector Integration
 #if INVECTOR_BASIC || INVECTOR_AI_TEMPLATE
@@ -121,8 +127,47 @@ namespace BNG {
                 DestroyThis();
             }
         }
+        //Este es un metodo creado aparte, no es original del paquete vr
+        public virtual void OnBallcollision(float damageAmount, string colorBall, Vector3? hitPosition = null, Vector3? hitNormal = null, bool reactToHit = true, GameObject sender = null, GameObject receiver = null)
+        {
+
+            if (destroyed)
+            {
+                return;
+            }
+            if (PonerColorDeLapida == colorBall)
+            {
+                points = 20;
+            }
+            else {
+                points = 5;
+            }
+            Health -= damageAmount;
+
+            onDamaged?.Invoke(damageAmount);
+
+
+            // Invector Integration
+#if INVECTOR_BASIC || INVECTOR_AI_TEMPLATE
+            if(SendDamageToInvector) {
+                var d = new Invector.vDamage();
+                d.hitReaction = reactToHit;
+                d.hitPosition = (Vector3)hitPosition;
+                d.receiver = receiver == null ? this.gameObject.transform : null;
+                d.damageValue = (int)damageAmount;
+
+                this.gameObject.ApplyDamage(new Invector.vDamage(d));
+            }
+#endif
+
+            if (Health <= 0)
+            {
+                DestroyThis();
+            }
+        }
 
         public virtual void DestroyThis() {
+            score.Score(points);
             Health = 0;
             destroyed = true;
 
@@ -184,7 +229,6 @@ namespace BNG {
                 }
             }
         }
-
         IEnumerator RespawnRoutine(float seconds) {
 
             yield return new WaitForSeconds(seconds);
