@@ -21,7 +21,7 @@ public class ScoreCounter : MonoBehaviour
     private void Start()
     {
         Generadores = GameObject.Find("Generadores").GetComponent<contrller>();
-        HigScoreTxt.text = PlayerPrefs.GetInt("HighScore",0).ToString();
+        HigScore = PlayerPrefs.GetInt("HighScore", 0);
     }
     private void Update()
     {
@@ -46,9 +46,11 @@ public class ScoreCounter : MonoBehaviour
         Generadores.active = false;
         if (ScoreSum > PlayerPrefs.GetInt("HighScore", 0))
         {
-            HigScore = PlayerPrefs.SetInt("HighScore", ScoreSum);
-            HigScoreTxt.text = HigScore.ToString();
+            Debug.Log("Entra al condicional");
+            PlayerPrefs.SetInt("HighScore", ScoreSum);
+            HigScoreTxt.text = ScoreSum.ToString();
         }
+        HigScoreTxt.text = HigScore.ToString();
         Debug.Log("highScore: " + HigScore.ToString());
         start = false;
     }
