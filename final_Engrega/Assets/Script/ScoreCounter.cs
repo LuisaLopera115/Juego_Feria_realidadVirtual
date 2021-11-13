@@ -13,7 +13,8 @@ public class ScoreCounter : MonoBehaviour
     public Text ScoreTxt;
     public Text TimerTxt;
 
-    private float timer = 30f;
+    [SerializeField]
+    private float timer = 40f;
     private int ScoreSum = 0;
 
     public bool start;

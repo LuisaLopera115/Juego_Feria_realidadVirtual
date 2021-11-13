@@ -6179,6 +6179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -6227,6 +6228,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -9415,6 +9418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -9463,6 +9467,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -14912,6 +14918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -14960,6 +14967,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -15031,6 +15040,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -15079,6 +15089,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -17972,6 +17984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -18020,6 +18033,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -18655,6 +18670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -18703,6 +18719,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -21224,6 +21242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -21272,6 +21291,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -33280,6 +33301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -33328,6 +33350,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -35842,6 +35866,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 5
   ColliderRigidbody: {fileID: 0}
   MinForce: 0.1
@@ -38815,6 +38840,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 597562632}
     m_Modifications:
+    - target: {fileID: 831789002696430783, guid: 1f75a4a1ec4271442a6c51de842cadf0,
+        type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 831789002696430783, guid: 1f75a4a1ec4271442a6c51de842cadf0,
         type: 3}
       propertyPath: m_DynamicPixelsPerUnit
@@ -44509,6 +44539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -44557,6 +44588,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -57929,6 +57962,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -57977,6 +58011,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -59151,6 +59187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -59199,6 +59236,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -59500,6 +59539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -59548,6 +59588,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -60190,6 +60232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -60238,6 +60281,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -61852,6 +61897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -61900,6 +61946,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -63707,6 +63755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -63755,6 +63804,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -67163,6 +67214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -67211,6 +67263,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -68499,6 +68553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -68547,6 +68602,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -69223,6 +69280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -69271,6 +69329,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -70138,6 +70198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -70186,6 +70247,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -72684,6 +72747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -72732,6 +72796,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -72910,6 +72976,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -72958,6 +73025,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -74401,6 +74470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -74449,6 +74519,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -77106,6 +77178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -77154,6 +77227,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -80743,6 +80818,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -80791,6 +80867,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -82889,6 +82967,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -82937,6 +83016,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -83140,6 +83221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -83188,6 +83270,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -83535,6 +83619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -83583,6 +83668,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -96933,6 +97020,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -96981,6 +97069,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -105235,6 +105325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -105283,6 +105374,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -108316,6 +108409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -108364,6 +108458,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -109349,6 +109445,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 5
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -110147,6 +110245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -110195,6 +110294,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -112735,6 +112836,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -112783,6 +112885,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
@@ -124244,6 +124348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821cfb7c3eab3764bbb57d764c6e26d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ponerColorPelota: 
   Damage: 1
   ColliderRigidbody: {fileID: 0}
   MinForce: 25
@@ -124292,6 +124397,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PonerColorDeLapida: 
+  score: {fileID: 0}
   Health: 10
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
